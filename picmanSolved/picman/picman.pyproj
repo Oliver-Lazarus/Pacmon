@@ -1,0 +1,92 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>bd5f1035-c6e2-4b0a-aea0-df20b451f46b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>picman.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>picman</Name>
+    <RootNamespace>picman</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Files\Classes\player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="F:\BackUP\picman.py">
+      <Link>picman.py</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
+    <Folder Include="Files\Classes\" />
+    <Folder Include="Files\Mazes\" />
+    <Folder Include="Files\Sprites\" />
+    <Folder Include="Files\Sprites\Map\" />
+    <Folder Include="Files\Sprites\Ghosts\" />
+    <Folder Include="Files\Sprites\Ghosts\Blinky\" />
+    <Folder Include="Files\Sprites\Ghosts\Clyde\" />
+    <Folder Include="Files\Sprites\Ghosts\DeadGhost\" />
+    <Folder Include="Files\Sprites\Ghosts\Inky\" />
+    <Folder Include="Files\Sprites\Ghosts\Pinky\" />
+    <Folder Include="Files\Sprites\PlayerSprites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\Sprites\Map\BL.png" />
+    <Content Include="Files\Sprites\Map\BR.png" />
+    <Content Include="Files\Sprites\Map\Cherry.png" />
+    <Content Include="Files\Sprites\Ghosts\Blinky\rGD.png" />
+    <Content Include="Files\Sprites\Ghosts\Blinky\rGL.png" />
+    <Content Include="Files\Sprites\Ghosts\Blinky\rGR.png" />
+    <Content Include="Files\Sprites\Ghosts\Blinky\rGU.png" />
+    <Content Include="Files\Sprites\Ghosts\Clyde\yGD.png" />
+    <Content Include="Files\Sprites\Ghosts\Clyde\yGL.png" />
+    <Content Include="Files\Sprites\Ghosts\Clyde\yGR.png" />
+    <Content Include="Files\Sprites\Ghosts\Clyde\yGU.png" />
+    <Content Include="Files\Sprites\Ghosts\DeadGhost\dGDown.png" />
+    <Content Include="Files\Sprites\Ghosts\DeadGhost\dgLeft.png" />
+    <Content Include="Files\Sprites\Ghosts\DeadGhost\dGRight.png" />
+    <Content Include="Files\Sprites\Ghosts\DeadGhost\dgUp.png" />
+    <Content Include="Files\Sprites\Ghosts\DeadGhost\vghost.png" />
+    <Content Include="Files\Sprites\Ghosts\Inky\bGD.png" />
+    <Content Include="Files\Sprites\Ghosts\Inky\bGL.png" />
+    <Content Include="Files\Sprites\Ghosts\Inky\bGR.png" />
+    <Content Include="Files\Sprites\Ghosts\Inky\bGU.png" />
+    <Content Include="Files\Sprites\Ghosts\Pinky\pGD.png" />
+    <Content Include="Files\Sprites\Ghosts\Pinky\pGL.png" />
+    <Content Include="Files\Sprites\Ghosts\Pinky\pGR.png" />
+    <Content Include="Files\Sprites\Ghosts\Pinky\pGU.png" />
+    <Content Include="Files\Sprites\Map\HW.png" />
+    <Content Include="Files\Sprites\Map\nCoin.png" />
+    <Content Include="Files\Sprites\Map\nothing.png" />
+    <Content Include="Files\Sprites\Map\Pacman.png" />
+    <Content Include="Files\Sprites\Map\sCoin.png" />
+    <Content Include="Files\Sprites\Map\TL.png" />
+    <Content Include="Files\Sprites\Map\TR.png" />
+    <Content Include="Files\Sprites\Map\VW.png" />
+    <Content Include="Files\Sprites\PlayerSprites\PD.png" />
+    <Content Include="Files\Sprites\PlayerSprites\PL.png" />
+    <Content Include="Files\Sprites\PlayerSprites\PR.png" />
+    <Content Include="Files\Sprites\PlayerSprites\PU.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

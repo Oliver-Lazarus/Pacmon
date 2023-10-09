@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "picman", "picman\picman.pyproj", "{BD5F1035-C6E2-4B0A-AEA0-DF20B451F46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD5F1035-C6E2-4B0A-AEA0-DF20B451F46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD5F1035-C6E2-4B0A-AEA0-DF20B451F46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {565BA657-24FA-4C14-B061-E50F28C4789A}
+	EndGlobalSection
+EndGlobal
